@@ -1,0 +1,20 @@
+{
+  "name": "tercerproyecto",
+  "version": "1.0.0",
+  "description": "Tercer Reto WEB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha --timeout=80000 ./tests"
+  },
+  "author": "Edith",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "puppeteer": "^9.1.1"
+  }
+}
